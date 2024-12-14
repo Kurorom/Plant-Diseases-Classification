@@ -26,7 +26,7 @@ if gpus:
         print(e)
 
 
-base_dir = 'PlantVillage'
+base_dir = 'PlantVillage' # change to your dataset directory name
 
 
 img_size = 224

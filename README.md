@@ -20,6 +20,17 @@ The goal of this project is to provide an efficient, accessible, and automated w
 
 ---
 
+## 📚 Dataset
+
+The model uses the **PlantVillage dataset**, a comprehensive collection of labeled plant leaf images, to train and evaluate the CNN model. The dataset includes a variety of crops with corresponding diseases such as **rust**, **blight**, **mildew**, and more. It is widely used for plant disease classification and offers a diverse set of images that help the model generalize well to new, unseen data.
+
+- **Dataset source**: [PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)
+- The dataset consists of:
+  - **Healthy and diseased leaf images**
+  - **Images across multiple plant species**
+
+---
+
 ## 🛠️ Technologies Used
 
 - **Python**: Programming language for implementation.
@@ -34,6 +45,7 @@ The goal of this project is to provide an efficient, accessible, and automated w
 
 - **Training Accuracy**: 94%
 - **Validation Accuracy**: 93%
+![Stats](https://i.imgur.com/sDBKNmv.png "Stats Screenshot")
 
 Loss curves and accuracy graphs are included to demonstrate the model’s learning process.
 
@@ -45,8 +57,5 @@ Loss curves and accuracy graphs are included to demonstrate the model’s learni
 Plant-Disease-Prediction/
 ├── main.py                 # Model training and evaluation script
 ├── class_indices.json      # Mapping of class indices to disease names
-├── Plant_Disease_Prediction.h5 # Trained model
-├── training_history.json   # Training history
 ├── README.md               # Project documentation
 ├── requirements.txt        # Python dependencies
-└── plantvillage_dataset/   # Dataset directory
